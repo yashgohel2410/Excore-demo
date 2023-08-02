@@ -1,0 +1,54 @@
+.two-column-banner-section {
+  .banner-content {
+    p {
+      &.medium {
+          font-size: 14px;
+      }
+    }
+  }
+
+  &:not(.banner-reverse) {
+    .banner-content {
+      padding-right: 50px;
+    
+    }
+  }
+
+  .banner-image {
+    display:flex;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    position: relative;
+  }
+
+  .banner-image-1 {
+    aspect-ratio: 1/0.66;
+    width: 100%;
+  }
+
+  &.banner-reverse {
+    .banner-image {
+      justify-content:flex-start;
+      order: 1;
+    }
+
+    .banner-content {
+      order: 2;
+      padding-left: 50px;
+    }
+
+    .zigzag-wrapper {
+      &.has-background {
+        padding-left: 0;
+        padding-right: 80px;
+      }
+    }
+  }
+}
+
+.zigzag-wrapper {
+  &.has-background {
+    background-color: #fff8f0;
+    padding-left: 80px;
+  }
+}

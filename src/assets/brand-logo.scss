@@ -1,0 +1,23 @@
+.manufacturers-section {
+  .brand-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  max-width: 400px;
+}
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 100px;
+}
