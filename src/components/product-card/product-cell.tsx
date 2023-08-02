@@ -2,8 +2,6 @@
 const ExpProductCell = (props: any) => {
   const { productDetails } = props;
 
-  console.log({ productDetails });
-
   return (
     <div className="product-card">
       <div className="card-inner">
