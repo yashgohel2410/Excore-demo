@@ -56,8 +56,9 @@ export async function createServer(
       }),
     )
   }
+  console.log(path.join(__dirname, "index.html"));
   app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "public", "index.html"));
+    res.sendFile(path.join(__dirname, "index.html"));
   });
   app.use('*', async (req, res) => {
     try {
