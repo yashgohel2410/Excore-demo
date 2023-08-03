@@ -5,7 +5,7 @@ import CtaBanner from "./components/cta-banner/cta-banner";
 import ProductCard from "./components/product-card/product-card";
 import ZigZagBanner from "./components/zig-zag-banner/zig-zag-banner";
 
-function App() {
+const App = ()=> {
 
   return (
     <>
